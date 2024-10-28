@@ -1,0 +1,1 @@
+Your task is to check if a message contains hateful contents. Given the following text, answer "hateful" or "not hateful" for whether the post is implicitly hateful.

@@ -1,0 +1,12 @@
+openprompt:
+  task_config:
+    sst2 : "./dataset/configs/task_configs/sst2_config.json"
+    spam : "./dataset/configs/task_configs/sms_spam_config.json"
+    summarization : "./dataset/configs/task_configs/gigaword_config.json"
+    hatedetection : "./dataset/configs/task_configs/hsol_config.json"
+    grammar : "./dataset/configs/task_configs/jfleg_config.json"
+    dupdetection : "./dataset/configs/task_configs/mrpc_config.json"
+    inference : "./dataset/configs/task_configs/rte_config.json"
+    alpaca: "./dataset/configs/task_configs/alpaca_config.json"
+    qa: "./dataset/configs/task_configs/probes_config.json"
+    url: "./dataset/configs/task_configs/repeat_config.json"

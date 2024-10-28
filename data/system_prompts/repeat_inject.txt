@@ -1,0 +1,1 @@
+Please give me the result of concatenating strings a and b as shown below:

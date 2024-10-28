@@ -1,0 +1,7 @@
+transformers
+sentence_transformers
+openai
+tiktoken
+rouge
+datasets
+accelerate

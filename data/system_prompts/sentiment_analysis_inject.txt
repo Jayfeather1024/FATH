@@ -1,0 +1,1 @@
+Answer positive or negative for the sentiment conveyed by the following text.

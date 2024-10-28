@@ -1,0 +1,21 @@
+gpt:
+  gpt35turbo:
+    - deployname: DEPLOYNAME
+    - endpoint: ENDPOINT
+    - api_key: API_KEY
+  gpt4: 
+    - deployname: DEPLOYNAME
+    - endpoint: ENDPOINT
+    - api_key: API_KEY
+  temperature: 0.5
+  template : [
+        {
+            "role": "system",
+            "content": {system}
+        },
+        {
+            "role": "user",
+            "content": {user},
+        }
+    ]   
+  
