@@ -1,0 +1,12 @@
+{
+    "task_info":{
+        "task":"alpaca",
+        "type":"text_generation"
+    },
+    "dataset_info":{
+        "dataset":"alpaca",
+        "split":"train",
+        "icl_split":"test",
+        "class_num":-1
+    }
+}

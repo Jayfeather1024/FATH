@@ -1,0 +1,12 @@
+{
+    "task_info":{
+        "task":"probes",
+        "type":"text_generation"
+    },
+    "dataset_info":{
+        "dataset":"probes",
+        "split":"train",
+        "icl_split":"train",
+        "class_num":-1
+    }
+}
