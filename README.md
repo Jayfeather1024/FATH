@@ -30,14 +30,15 @@ python run_FATH.py \
 --injected_method ATTACK_METHOD \
 --save_folder OUTPUT_DIR
 ```
-MODEL_NAME: Evaluation model name. "gpt35turbo" for GPT3.5; "llama3" for Llama3.
+**MODEL_NAME:** Evaluation model name. "gpt35turbo" for GPT3.5; "llama3" for Llama3.
 
-INJECTED_TASK: Injection task name. "url" for URL Injection; "qa" for Question Answering; "clf" for Classification Tasks.
+**INJECTED_TASK:** Injection task name. "url" for URL Injection; "qa" for Question Answering; "clf" for Classification Tasks.
 
-DEFENSE_METHOD: Defense method name. "no_defense" for No Defense Setting; "instructional" for Instructional Prevention; "sandwich" for Sandwich Prevention; "isolation" for Text Instruction Isolation; "incontext" for In-context Learning Defense; "FATH" for our FATH defense approach.
+**DEFENSE_METHOD:** Defense method name. "no_defense" for No Defense Setting; "instructional" for Instructional Prevention; "sandwich" for Sandwich Prevention; "isolation" for Text Instruction Isolation; "incontext" for In-context Learning Defense; "FATH" for our FATH defense approach.
 
-ATTACK_METHOD: Attack method name. "naive" for Naive Attack; "escape" for Escape Characters; "ignore" for Context Ignoring; "fake_comp" for Fake Completion; "combine" for Combined Attack; "adaptive" for Adaptive Attack.
-OUTPUT_DIR: results folder name.
+**ATTACK_METHOD:** Attack method name. "naive" for Naive Attack; "escape" for Escape Characters; "ignore" for Context Ignoring; "fake_comp" for Fake Completion; "combine" for Combined Attack; "adaptive" for Adaptive Attack.
+
+**OUTPUT_DIR:** results folder name.
 
 ## Clean Performance
 
